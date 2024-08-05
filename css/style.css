@@ -1,0 +1,624 @@
+
+.color-mine{
+    background-color:#f5f5f5;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+  background-color: #f5f5f5;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.774);
+    
+    position:fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    color: white;
+    font-size: 18px;
+}
+.navbar-brand{
+    font-size: 24px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(87, 77, 77);
+}
+
+.animatedText::after {
+    content: "";
+    animation: typing 11s infinite;
+    font-size: calc(0.8rem + 2vw);
+    font-weight: 500;
+    color: white;
+  }
+  @keyframes typing {
+    0% {
+      content: "|";
+    }
+    1% {
+      content: "De|";
+    }
+    2% {
+      content: "Des|";
+    }
+    4% {
+      content: "Desi|";
+    }
+    5% {
+      content: "Desig|";
+    }
+    7% {
+      content: "Design|";
+    }
+    9% {
+      content: "Designer|";
+    }
+    10% {
+      content: "Designe|";
+    }
+    12% {
+      content: "Design|";
+    }
+    13% {
+      content: "Desig|";
+    }
+    15% {
+      content: "Desi|";
+    }
+    17% {
+      content: "Des|";
+    }
+    19% {
+      content: "De|";
+    }
+    21% {
+      content: "Dev|";
+    }
+    22% {
+      content: "Deve|";
+    }
+    24% {
+      content: "Devel|";
+    }
+    25% {
+      content: "Develo|";
+    }
+    27% {
+      content: "Develop|";
+    }
+    28% {
+      content: "Develope|";
+    }
+    30% {
+      content: "Developer|";
+    }
+    32% {
+      content: "Develope|";
+    }
+    33% {
+      content: "Develop|";
+    }
+    34% {
+      content: "Develo|";
+    }
+    35% {
+      content: "Develo|";
+    }
+    36% {
+      content: "Devel|";
+    }
+    37% {
+      content: "Deve|";
+    }
+    38% {
+      content: "Dev|";
+    }
+    39% {
+      content: "De|";
+    }
+    40% {
+      content: "D|";
+    }
+    41% {
+      content: "|";
+    }
+    42% {
+      content: "P|";
+    }
+    44% {
+      content: "Ph|";
+    }
+    45% {
+      content: "Pho|";
+    }
+    47% {
+      content: "Phot|";
+    }
+    48% {
+      content: "Photo|";
+    }
+    50% {
+      content: "Photog|";
+    }
+    51% {
+      content: "Photogr|";
+    }
+    53% {
+      content: "Photogra|";
+    }
+    55% {
+      content: "Photograp|";
+    }
+    57% {
+      content: "Photograph|";
+    }
+    59% {
+      content: "Photographe|";
+    }
+    61% {
+      content: "Photographer|";
+    }
+    63% {
+      content: "Photographe|";
+    }
+    65% {
+      content: "Photograph|";
+    }
+    67% {
+      content: "Photograp|";
+    }
+    69% {
+      content: "Photogra|";
+    }
+    71% {
+      content: "Photogr|";
+    }
+    73% {
+      content: "Photog|";
+    }
+    75% {
+      content: "Photo|";
+    }
+    76% {
+      content: "Phot|";
+    }
+    77% {
+      content: "Pho|";
+    }
+    78% {
+      content: "Ph|";
+    }
+    79% {
+      content: "P|";
+    }
+    80% {
+      content: "|";
+    }
+    81% {
+      content: "F|";
+    }
+    82% {
+      content: "Fr|";
+    }
+    83% {
+      content: "Fre|";
+    }
+    84% {
+      content: "Free|";
+    }
+    85% {
+      content: "Freel|";
+    }
+    86% {
+      content: "Freela|";
+    }
+    87% {
+      content: "Freelan|";
+    }
+    88% {
+      content: "Freelanc|";
+    }
+    89% {
+      content: "Freenalce|";
+    }
+    90% {
+      content: "Freelancer|";
+    }
+    91% {
+      content: "Freelance|";
+    }
+    92% {
+      content: "Freelanc|";
+    }
+    93% {
+      content: "Freelan|";
+    }
+    94% {
+      content: "Freela|";
+    }
+    95% {
+      content: "Freel|";
+    }
+  
+    96% {
+      content: "Free|";
+    }
+    97% {
+      content: "Fre|";
+    }
+    98% {
+      content: "Fr|";
+    }
+    99% {
+      content: "F|";
+    }
+    100% {
+      content: "|";
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Home{
+    /* background-image: url('../imgs/hero-bg.jpg'); */
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.layer{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+}
+.HomeText h2{
+    font-size: 4.5rem;
+}
+
+.bar h3{
+    color: #4e4e4e;
+    font-size: 14px;
+}
+.skills h3{
+    font-size: 24px;
+}
+
+.AboutMe{
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+.box-shadow-full
+{
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.abouttext{
+  font-size: 20px;
+
+}
+.SkillText{
+  font-size: 18px;
+  font-weight:300;
+}
+.progress{
+  border-radius: 0;
+}
+.AboutImg{
+  border-radius:10px 10px;
+}
+/* Service Section */
+.SERVICES{
+    background-color:#f5f5f5;
+}
+
+.title h2{
+    font-weight: 700;
+
+    
+    font-size: 3rem;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cardlayer{
+    padding: 50px 30px;
+    border-radius: 10%;
+}
+
+.icon-border{
+    background-color:white;
+    padding: 10px 20px;
+    margin:10px 5px ;
+    font-size: 24px;
+    border: solid 10px #007aff;
+    transform: translate(50%);
+    transition: border 2s;
+}
+.icon-border i{
+    font-size: 30px;
+}
+.icon-border:hover {
+    color: white;
+    background-color: #007aff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+.cardlayer p{
+    font-size: 15px;
+}
+.cardlayer h3{
+    padding: 20px 10px;
+    font-size: 1.4rem;
+}
+
+
+
+
+/* Number Section */
+.Numbers{
+    background-image: url("../imgs/post-3.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+    
+    height:50vh;
+}
+
+.layerNumber{
+    background-color: #007bffc8;
+    height:50vh;
+
+}
+.icon-n{
+    border: solid 10px #e0e6ed;
+    margin: 0 5px;
+}
+.icon-n i{
+    font-size: 29px;
+    color: white;
+    
+}
+.numbertext h4{
+    color: white;
+    font-size: 15px;
+}
+.numbertext h3{
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+
+
+/* Portfolio */
+
+
+.title p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.Portfoliocard {
+    border:  1px transparent;
+    box-shadow: 0 15px 8px -10px rgba(0, 0, 0, 0.1);
+
+}
+.PortfolioCard-content{
+    font-size: 18px;
+    padding: 12px;
+    
+}
+.PortfolioCard-text{
+    font-size: 12px;
+}
+.PortfolioCard-text span{
+    color: #007aff;
+}
+.PortfolioCard-title{
+    font-size: 18px;
+}
+.icon{
+    border: #007aff 3px solid;
+    border-radius: 50%;
+    width: 40px;
+    padding: 3px 0px;
+}
+.icon i{
+    color: #007aff;
+    font-size: 25px;
+    transform: translate(30%);
+
+}
+.portimage{
+    border:  1px transparent;
+    overflow: hidden;
+}
+.portimage img{
+    width: 100%;
+    transition: scale ease-in 0.5s;
+}
+
+.portimage:hover img{
+    scale: 1.25;
+}
+
+
+/* feedback */
+.feedbackHome{
+    background-image: url("../imgs/overlay-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3opx;
+    background-attachment: fixed;
+}
+.layerfeedback{
+    background-color:rgba(49, 98, 234, 0.772);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    
+
+}
+/* .feedbackHome{
+    background-image: url("../imgs/overlay-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layerfeedback{
+    background-color: #007bffc8;
+    width: 100%;
+    height: 100%;
+} */
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gainsboro;
+}
+/* .sectonTitle h2::after{
+    content: "";
+    display: block;
+    border: #007aff solid 4px;
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+} */
+.linetitle{
+    border-bottom: #007aff 5px solid;
+    margin: auto;
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+}
+.linediv{
+    border-bottom: #d3d5d770 1px solid;
+    margin: auto;
+    width: 100%;
+
+}
+.profimg{
+width: 10%;
+
+}
+.profimg img{
+    width: 100%;
+  
+}
+.cardleft h4{
+   padding-top: 5px;
+}
+.cardprofile{
+    padding: 20px 0 15px 20px;
+    background-color: #d3d5d75b;
+}
+.cardprofile h4 {
+    font-size: 15px;
+}
+
+.Blog{
+    margin-top: 30px;
+}
+
+
+/* Blog */
+
+.cardtext{
+    border: #0062d3 1px solid;
+    border-radius: 2px 1px;
+    padding: 5px 5px;
+    background-color: #0062d3;
+    transform: translateY(40%);
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+}
+
+/* message */
+.MessageSection{
+    background-image: url("../imgs/overlay-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+.linetitle2{
+    border-bottom: #007aff 5px solid;
+    width: 20%;
+    margin: 4px;
+    
+}
+.btnmessage{
+    border-radius: 5rem;
+    font-size: 20px;
+}
+.btnmessagediv{
+    margin: auto;
+}
+.form-control{
+    padding: 10px 10px;
+}
+.messagebox{
+    width: 80%;
+    margin: 30px auto;
+    height: 80%;
+}
+.details{
+    list-style: none;
+    
+}
+
+.details i{
+    color: #007aff;
+    font-size: 18px;
+    padding: 10px;
+}
+.roundedcircle{
+    border: #007aff 4px solid;
+    padding: 10px 10px;
+    transition: all 0.5 ease-in;
+}
+.roundedcircle i{
+    font-size: 20px;
+}
+
+.roundedcircle:hover{
+    background-color: #0062d3;
+    color: white;
+    box-shadow: 0 0 0 5px #cde1f8;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px;
+    background-color: #0062d3;
+    color: white;
+    text-align: center;
+}
